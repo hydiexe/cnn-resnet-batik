@@ -1,4 +1,4 @@
-# Batik Classification with Resnet (Google Colab ver)
+# Batik Classification with ResNet (Google Colab ver)
 This project implements deep learning models using the ResNet architecture to classify 25 traditional Indonesian batik patterns. It is optimized to run on **Google Colab** with automatic data splitting, training, and evaluation.
 
 ---
@@ -49,4 +49,5 @@ Special thanks to my thesis advisor and colleagues for their support and feedbac
 
 ## 📬 Contact
 For inquiries or feedback, please contact: [nexuszeoviennazabrizkie@gmail.com]
+
 Insta: @hydie.exe
