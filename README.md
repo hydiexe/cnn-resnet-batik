@@ -1,5 +1,5 @@
 # Batik Classification with ResNet (Google Colab ver)
-This project implements deep learning models using the ResNet architecture to classify 25 traditional Indonesian batik patterns. It is optimized to run on **Google Colab** with automatic data splitting, training, and evaluation.
+This project implements deep learning models using the ResNet architecture to classify 20 traditional Indonesian batik patterns.
 
 ---
 
@@ -7,26 +7,29 @@ This project implements deep learning models using the ResNet architecture to cl
 
 Each subfolder represents one batik class. The script will split them into:
 
-// will be added later
-- 80% training
-- 10% validation
-- 10% testing
+// will be added later (the folder was too big)
+- 70% training
+- 15% validation
+- 15% testing
 
 ---
 
 ## ⚙️ Features
 
-- ✅ Automatic dataset splitting using `splitfolders`
-- ✅ Multiple ResNet architectures (ResNet18–152, ResNet110 custom)
-- ✅ Data augmentation during training
-- ✅ Model evaluation with:
+- **Automatic dataset splitting** using `shutil` and `pathlib` for efficient train, test, and val dataset separation ✅
+- (on dev) **Multiple ResNet architectures** (ResNet18–152, ResNet110 custom)
+- (on dev) **Data augmentation** during training using **OpenCV** and **NumPy**, including:
+  - Random cropping
+  - Random rotation
+  - Brightness and contrast adjustments
+- (on dev) **Model evaluation** with:
   - Accuracy
   - Precision
   - Recall
   - F1-Score
   - Confusion Matrix
-- ✅ Saves training history plots and best model
-- ✅ Export performance summary to CSV
+- **Saves training history plots and best model**.
+- **Exports performance summary to CSV**.
 
 ---
 
